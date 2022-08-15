@@ -16,4 +16,4 @@ run backend erver
 
 `cd tony-personalwebsite-server`
 
-`nodemon server.js`
+`nodemon index.js`
