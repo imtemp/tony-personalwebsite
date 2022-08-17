@@ -5,6 +5,19 @@
   margin: 50px;
 }
 
-.invis 
+.invis {
   visibility: hidden;
+}
+
+.centered {
+  text-align: center;
+}
+
+.img-language {
+  max-width: 110px;
+  max-height: 110px;
+}
+
+.img-language:hover {
+  transform: scale(1.5, 1.5);
 }
