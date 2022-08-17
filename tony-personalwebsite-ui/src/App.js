@@ -11,7 +11,7 @@ function App() {
     <div className="center">
       <Navbar />
       <Landing />
-      <About name="Bono" />
+      <About name="Tony" />
       <Skills />
       <Projects />
     </div>

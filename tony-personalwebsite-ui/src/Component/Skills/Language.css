@@ -1,4 +1,10 @@
 .imageBox {
-  max-width: 90px;
-  max-height: 90px;
+  max-width: 110px;
+  max-height: 110px;
+  float: left;
+  margin: 50px;
+}
+
+.invis 
+  visibility: hidden;
 }

@@ -30,47 +30,24 @@ const Skills = () => {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg";
 
   return (
-    <div className="lang-size">
+    <div class="row">
       <h1>Skills</h1>
-      <Language title={js} name="JavaScript" />
-      <Language title={html} name="HTML5" />
-      <Language title={css} name="CSS3" />
-      <Language title={tailwind} name="Tailwind" />
-      <Language title={bootstrap} name="Bootstrap" />
-      <Language title={python} name="Python" />
-      <Language title={java} name="Java" />
-      <Language title={react} name="React" />
-      <Language title={node} name="Node" />
-      <Language title={mysql} name="MySQL" />
-      <Language title={mongo} name="MongoDB" />
-      <Language title={jquery} name="jQuery" />
+      <div className="column">
+        <Language title={js} name="JavaScript" />
+        <Language title={html} name="HTML5" />
+        <Language title={css} name="CSS3" />
+        <Language title={tailwind} name="Tailwind" />
+        <Language title={bootstrap} name="Bootstrap" />
+        <Language title={python} name="Python" />
+        <Language title={java} name="Java" />
+        <Language title={react} name="React" />
+        <Language title={node} name="Node" />
+        <Language title={mysql} name="MySQL" />
+        <Language title={mongo} name="MongoDB" />
+        <Language title={jquery} name="jQuery" />
+      </div>
     </div>
   );
 };
 
 export default Skills;
-
-/**      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-      <span className="caption">JavaScript</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-      <span className="caption">HTML5</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-      <span className="caption">CSS3</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-      <span className="caption">Tailwind</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-      <span className="caption">Bootstrap</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-      <span className="caption">Python</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-      <span className="caption">Java</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-      <span className="caption">React</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-      <span className="caption">Node.js</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" />
-      <span className="caption">MySQL</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
-      <span className="caption">MongoDB</span>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" />
-      <span className="caption">jQuery</span> */
