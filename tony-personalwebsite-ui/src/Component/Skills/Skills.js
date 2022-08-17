@@ -31,6 +31,7 @@ const Skills = () => {
 
   return (
     <div className="lang-size">
+      <h1>Skills</h1>
       <Language title={js} name="JavaScript" />
       <Language title={html} name="HTML5" />
       <Language title={css} name="CSS3" />
