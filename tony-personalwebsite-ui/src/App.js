@@ -5,6 +5,7 @@ import Skills from "./Component/Skills/Skills.js";
 import Landing from "./Component/Landing/Landing.js";
 import "./App.css";
 import Projects from "./Component/Projects/Projects.js";
+import ProjectCard from "./Component/Projects/ProjectCard.js";
 
 function App() {
   return (

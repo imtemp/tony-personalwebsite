@@ -30,7 +30,7 @@ const Skills = () => {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg";
 
   return (
-    <div class="row">
+    <div className="row lang-size">
       <h1>Skills</h1>
       <div className="column">
         <Language title={js} name="JavaScript" />

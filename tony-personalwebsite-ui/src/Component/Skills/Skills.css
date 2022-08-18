@@ -1,6 +1,8 @@
 .lang-size {
   display: flex;
   justify-content: space-around;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .row {
@@ -9,5 +11,5 @@
 
 .column {
   flex: 33.33%;
-  padding: 5px;
+  padding: 10px;
 }

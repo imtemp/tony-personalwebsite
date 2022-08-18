@@ -1,8 +1,6 @@
 .imageBox {
-  max-width: 110px;
-  max-height: 110px;
-  float: left;
-  margin: 50px;
+  width: 220px;
+  display: inline-block;
 }
 
 .invis {
@@ -16,6 +14,7 @@
 .img-language {
   max-width: 110px;
   max-height: 110px;
+  margin: 50px;
 }
 
 .img-language:hover {

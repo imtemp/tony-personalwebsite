@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Modal from "./Modal";
 import "./Language.css";
 
 const Language = (props) => {
@@ -13,6 +14,7 @@ const Language = (props) => {
     e.preventDefault();
     setHover(false);
   };
+
   return (
     <div className="imageBox">
       <img
@@ -21,8 +23,8 @@ const Language = (props) => {
         onMouseLeave={(e) => onHoverOver(e)}
         src={props.title}
       ></img>
-      <p className="invis">123456679</p>
-      {hover && <p className="centered">{props.name}</p>}
+      <p>{props.name}</p>
+      {hover && <Modal />}
     </div>
   );
 };
