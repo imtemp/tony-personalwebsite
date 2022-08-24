@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "./Modal";
 import "./Language.css";
-
+import { AnimationOnScroll } from "react-animation-on-scroll";
 const Language = (props) => {
   const [hover, setHover] = useState(false);
 
@@ -17,14 +17,16 @@ const Language = (props) => {
 
   return (
     <div className="imageBox">
-      <img
-        className="img-language"
-        onMouseEnter={(e) => onHover(e)}
-        onMouseLeave={(e) => onHoverOver(e)}
-        src={props.title}
-      ></img>
-      <p>{props.name}</p>
-      {hover && <Modal />}
+      <AnimationOnScroll animateIn="animate__fadeIn">
+        <img
+          className="img-language"
+          onMouseEnter={(e) => onHover(e)}
+          onMouseLeave={(e) => onHoverOver(e)}
+          src={props.title}
+        ></img>
+        <p>{props.name}</p>
+        {hover && <Modal />}
+      </AnimationOnScroll>
     </div>
   );
 };

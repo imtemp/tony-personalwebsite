@@ -1,6 +1,7 @@
 import React from "react";
 import Language from "./Language";
 import "./Skills.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Skills = () => {
   // CDN in a variable for logo icon
@@ -28,10 +29,18 @@ const Skills = () => {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg";
   const jquery =
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg";
-
+  const spring =
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg";
+  const csharp =
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg";
+  const expressjs =
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg";
   return (
     <div className="row lang-size">
-      <h1>Skills</h1>
+      <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+        <h1>Skills</h1>
+      </AnimationOnScroll>
+
       <div className="column">
         <Language title={js} name="JavaScript" />
         <Language title={html} name="HTML5" />
@@ -45,6 +54,9 @@ const Skills = () => {
         <Language title={mysql} name="MySQL" />
         <Language title={mongo} name="MongoDB" />
         <Language title={jquery} name="jQuery" />
+        <Language title={spring} name="Spring" />
+        <Language title={csharp} name="C#" />
+        <Language title={expressjs} name="Express" />
       </div>
     </div>
   );

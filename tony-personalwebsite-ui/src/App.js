@@ -6,6 +6,7 @@ import Landing from "./Component/Landing/Landing.js";
 import "./App.css";
 import Projects from "./Component/Projects/Projects.js";
 import ProjectCard from "./Component/Projects/ProjectCard.js";
+import "animate.css/animate.min.css";
 
 function App() {
   return (

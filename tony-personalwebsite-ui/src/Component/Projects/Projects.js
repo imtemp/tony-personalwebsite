@@ -10,7 +10,10 @@ const Projects = () => {
   return (
     <div>
       <h1>Projects</h1>
-      <ProjectCard />
+      <ProjectCard
+        title={projects[0].title}
+        description={projects[0].description}
+      />
     </div>
   );
 };

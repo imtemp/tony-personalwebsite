@@ -1,5 +1,5 @@
 import "./Landing.css";
-
+import { AnimationOnScroll } from "react-animation-on-scroll";
 const Landing = () => {
   return (
     <div className="landing-background">

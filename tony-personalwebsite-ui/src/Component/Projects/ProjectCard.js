@@ -3,14 +3,14 @@ import Card from "react-bootstrap/Card";
 
 function ProjectCard(props) {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src="../../../public/img/landing.png" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text>{props.description}</Card.Text>
-        <Button variant="primary">GitHub</Button>
-      </Card.Body>
-    </Card>
+    <div>
+      <a
+        href="#"
+        className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+      >
+        aaaaa
+      </a>
+    </div>
   );
 }
 
