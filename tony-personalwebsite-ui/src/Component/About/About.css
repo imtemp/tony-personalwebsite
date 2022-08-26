@@ -1,9 +1,22 @@
-h2 {
-  text-align: center;
-  margin: 4%;
+.about-background {
+  background-color: #16354d;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
-p {
+h2 {
   text-align: center;
-  margin: 5% 30%;
+  margin: 1%;
+}
+
+.h1about {
+  text-align: center;
+  padding-top: 5px;
+  color: aliceblue;
+}
+
+.about-hero-text {
+  text-align: center;
+  margin: 2% 30%;
+  color: aliceblue;
 }

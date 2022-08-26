@@ -24,7 +24,7 @@ const Language = (props) => {
           onMouseLeave={(e) => onHoverOver(e)}
           src={props.title}
         ></img>
-        <p>{props.name}</p>
+        <p className="caption">{props.name}</p>
         {hover && <Modal />}
       </AnimationOnScroll>
     </div>
