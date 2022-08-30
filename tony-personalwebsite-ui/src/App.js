@@ -16,6 +16,7 @@ function App() {
       <About name="Tony" />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }
