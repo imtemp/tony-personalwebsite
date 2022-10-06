@@ -7,21 +7,13 @@ const About = (props) => {
         Hello! I am {props.name}
       </h1>
       <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-amber-300">
-        I am a Full-Stack Developer
+        I am a Software Engineer
       </h2>
       <p className="about-hero-text">
-        Previous student from University of Toronto for Computer Science,
-        graduate from Centennial College for Software Engineering
-        <br /> I am someone who loves programming, with an endless passion for
-        web development. I own an array of skills required to suceed as a web
-        developer.
-        <br />
-        <br />
-        I describe myself as someone who is:
-        <br />
-        Easy Going | Open Minded | Relaxed
-        <br />
-        Diligent | Problem Solver | Creative
+        Previous student from University of Toronto for Computer Science
+        <br /> Graduate from Centennial College for Software Engineering
+        <br /> I love programming because there is an endless possibility of
+        what is possible and creating something feels extremely rewarding.
         <br />
         <a
           href="../../public/assets/Resume_Tony_Lin.pdf"

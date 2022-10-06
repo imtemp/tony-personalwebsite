@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Modal from "./Modal";
 import "./Language.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 const Language = (props) => {
@@ -24,8 +23,7 @@ const Language = (props) => {
           onMouseLeave={(e) => onHoverOver(e)}
           src={props.title}
         ></img>
-        <p className="caption">{props.name}</p>
-        {hover && <Modal />}
+        {hover}
       </AnimationOnScroll>
     </div>
   );

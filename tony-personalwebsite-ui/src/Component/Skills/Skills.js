@@ -35,28 +35,38 @@ const Skills = () => {
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg";
   const expressjs =
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg";
+  const aws =
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg";
+  const azure =
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg";
+  const typescript =
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg";
+
   return (
-    <div className="row lang-size">
+    <div className="skill-section row lang-size">
       <AnimationOnScroll animateIn="animate__fadeInLeftBig">
         <h1>Skills</h1>
       </AnimationOnScroll>
 
       <div className="column">
         <Language title={js} name="JavaScript" />
+        <Language title={typescript} name="TypeScript" />
+        <Language title={react} name="React" />
+        <Language title={jquery} name="jQuery" />
+        <Language title={node} name="Node" />
+        <Language title={expressjs} name="Express" />
+        <Language title={mongo} name="MongoDB" />
+        <Language title={mysql} name="MySQL" />
         <Language title={html} name="HTML5" />
         <Language title={css} name="CSS3" />
         <Language title={tailwind} name="Tailwind" />
         <Language title={bootstrap} name="Bootstrap" />
         <Language title={python} name="Python" />
         <Language title={java} name="Java" />
-        <Language title={react} name="React" />
-        <Language title={node} name="Node" />
-        <Language title={mysql} name="MySQL" />
-        <Language title={mongo} name="MongoDB" />
-        <Language title={jquery} name="jQuery" />
         <Language title={spring} name="Spring" />
         <Language title={csharp} name="C#" />
-        <Language title={expressjs} name="Express" />
+        <Language title={azure} name="Azure" />
+        <Language title={aws} name="Amazon Web Service" />
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import "./Project.css";
 const Projects = () => {
   const projects = [
     {
@@ -20,8 +21,8 @@ const Projects = () => {
     },
   ];
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className="section">
+      <h1 className="project-header">Projects</h1>
       <div className="flex flex-row justify-center items-center">
         <div className="h-56 grid grid-cols-3 gap-16 content-start">
           <ProjectCard

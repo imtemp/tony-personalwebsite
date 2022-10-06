@@ -1,5 +1,5 @@
 .imageBox {
-  width: 220px;
+  width: 160px;
   display: inline-block;
 }
 
@@ -7,20 +7,12 @@
   visibility: hidden;
 }
 
-.centered {
-  text-align: center;
-}
-
 .img-language {
-  max-width: 110px;
-  max-height: 110px;
-  margin: 50px;
+  max-width: 70px;
+  max-height: 90px;
+  margin: 15px;
 }
 
 .img-language:hover {
   transform: scale(1.5, 1.5);
-}
-
-.caption {
-  text-align: center;
 }

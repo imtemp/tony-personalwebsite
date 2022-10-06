@@ -1,27 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./Navbar.css";
+
 const Navbar = () => {
+  const scrollToRef = useRef();
+
   return (
     <div>
       <section id="header">
-        <a href="#">
-          <img id="logo" src="img/logo.png" class="logo" alt="" />
-        </a>
         <div>
           <ul id="navbar">
             <li>
-              <a class="active" href="index.html">
-                Home
+              <a className="active" href="#">
+                About
               </a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a className="" href="#">
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a className="" href="#">
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a className="" href="#">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
