@@ -15,12 +15,6 @@ const About = (props) => {
         <br /> I love programming because there is an endless possibility of
         what is possible and creating something feels extremely rewarding.
         <br />
-        <a
-          href="../../public/assets/Resume_Tony_Lin.pdf"
-          className="no-underline"
-        >
-          Resume
-        </a>
       </p>
     </div>
   );
