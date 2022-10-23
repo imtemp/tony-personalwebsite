@@ -1,7 +1,29 @@
 .section {
-  background-color: #52ab98;
+  background-color: #002233;
 }
-
+.projects {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+  padding-top: 5%;
+}
 .project-header {
   color: #ffffff;
+}
+.spacer {
+  aspect-ratio: 900/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.layer1 {
+  background-image: url("../../../public/assets/wave-haikei.svg");
+}
+
+.project-list {
+  display: flex;
+}
+.project-list li {
+  padding: 30px;
 }

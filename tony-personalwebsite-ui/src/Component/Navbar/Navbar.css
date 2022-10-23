@@ -3,18 +3,18 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background-color: aliceblue;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  background-color: transparent;
   z-index: 999;
   top: 0;
   left: 0;
+  position: absolute;
 }
 
 #navbar {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: sticky;
+  cursor: default;
 }
 
 #navbar li {
@@ -27,13 +27,13 @@
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.788);
   transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: cadetblue;
+  color: rgb(255, 255, 255);
 }
 
 #navbar li a.active::after,
@@ -41,7 +41,7 @@
   content: "";
   width: 30%;
   height: 2px;
-  background: cadetblue;
+  background: rgb(255, 255, 255);
   position: absolute;
   bottom: -4px;
   left: 20px;

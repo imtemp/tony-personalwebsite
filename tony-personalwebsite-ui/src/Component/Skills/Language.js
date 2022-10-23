@@ -16,7 +16,7 @@ const Language = (props) => {
 
   return (
     <div className="imageBox">
-      <AnimationOnScroll animateIn="animate__fadeIn">
+      <AnimationOnScroll animateOnce={true} animateIn="animate__fadeInRightBig">
         <img
           className="img-language"
           onMouseEnter={(e) => onHover(e)}

@@ -1,7 +1,8 @@
+import "./Footer.css";
 const Footer = () => {
   return (
-    <div>
-      <p>Tony Lin 2022</p>
+    <div className="footer-section">
+      <p className="text-center">&copy;2022 Tony Lin</p>
     </div>
   );
 };

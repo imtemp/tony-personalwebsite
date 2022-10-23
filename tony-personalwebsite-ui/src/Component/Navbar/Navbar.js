@@ -1,33 +1,46 @@
 import React, { useRef } from "react";
+import { Link } from "react-scroll";
+
 import "./Navbar.css";
 
 const Navbar = () => {
-  const scrollToRef = useRef();
-
   return (
     <div>
       <section id="header">
         <div>
           <ul id="navbar">
             <li>
-              <a className="active" href="#">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="" href="#">
+              <Link
+                activeClass="active"
+                delay={0}
+                smooth={true}
+                duration={500}
+                to="skills"
+              >
                 Skills
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="" href="#">
+              <Link
+                activeClass="active"
+                delay={0}
+                smooth={true}
+                duration={500}
+                to="projects"
+              >
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="" href="#">
+              <Link
+                activeClass="active"
+                delay={0}
+                smooth={true}
+                duration={500}
+                to="contact"
+              >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

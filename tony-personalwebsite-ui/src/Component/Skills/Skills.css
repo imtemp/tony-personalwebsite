@@ -1,17 +1,19 @@
-.lang-size {
+.skill-lang {
   display: flex;
-  justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5.7%;
-  margin-bottom: 5.7%;
+  justify-content: left;
+  align-items: center;
+  padding-left: 10%;
+}
+.column1 {
 }
 
-.row {
+.down-button {
   display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.column {
-  flex: 33.33%;
-  padding: 10px;
+.invisible {
+  visiblity: hidden;
 }
