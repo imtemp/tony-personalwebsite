@@ -63,7 +63,7 @@ const Contact = () => {
               <p>GitHub</p>
             </a>
             <a
-              href="www.linkedin.com/in/linyushu
+              href="https://www.linkedin.com/in/linyushu
 "
             >
               <p>LinkedIn</p>
